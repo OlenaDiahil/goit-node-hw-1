@@ -3,7 +3,7 @@ const path = require('path');
 const { nanoid } = require('nanoid');
 const { title } = require('process');
 
-const contactsPath = path.resolve(__dirname, "contacts.json");;
+const contactsPath = path.resolve(__dirname, "db/contacts.json");;
 
 
 async function listContacts() {

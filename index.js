@@ -1,5 +1,5 @@
 const argv = require('yargs').argv;
-const contacts = require("./db/contacts.js");
+const contacts = require("./contacts.js");
 
 async function invokeAction({ action, id, name, email, phone }) {
   switch (action) {
